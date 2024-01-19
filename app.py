@@ -31,8 +31,5 @@ def handle_connect():
     socketio.emit('initial_messages', messages, room=request.sid)
 
 if __name__ == '__main__':
-
-    
-if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=5000)
 
